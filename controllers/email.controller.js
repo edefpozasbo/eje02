@@ -4,7 +4,7 @@ const sgMail = require('@sendgrid/mail');
 
 let _user;
 
-sgMail.setApiKey("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");
+sgMail.setApiKey("API KEY");
 
 const load_template=function(path){
 	return new Promise((resolve,reject)=>{
